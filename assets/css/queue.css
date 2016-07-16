@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://static.pexels.com/photos/157/person-apple-laptop-notebook.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+h4{
+    font-weight: 200;
+}
+.card{
+    opacity: .8;
+    border-radius: 1px;
+    border: none;
+}
+
+
+
+

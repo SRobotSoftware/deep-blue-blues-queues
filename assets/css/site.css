@@ -3,8 +3,8 @@ body{
     background-size: cover;
     background-position: center;
     font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	overflow-x: hidden;
+    font-weight: 300;
+    overflow-x: hidden;
 }
 h1{
     color: white;
@@ -17,9 +17,9 @@ img{
 form{
     background-color: #444;
     opacity: .8;
-    padding: 10px 60px 30px 60px;
+    padding: 10px 60px 80px 60px;
     border-radius: 5px;
-    margin: 40px 10px 0 10px;
+    margin: 40px 10px 0 50px;
 }
 .btn{
     font-weight: 100;
@@ -34,6 +34,9 @@ form{
 .btn:hover{
     font-weight: 300;
 }
+.blue-btn{
+  align-items: left;
+}
 .blue-btn:hover{
     background-color: #00BCD4;
     border: 1px solid #00BCD4;
@@ -44,6 +47,18 @@ form{
     border: 1px solid #fc5555;
 }
 
+
+form:hover{
+    background: -webkit-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .9));
+    background: -webkit-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .9)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .9)); /*Opera 11.1-12*/
+  	background: -moz-linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .9)); /*Fx 3.6-15*/
+  	background: linear-gradient(rgba(44, 153, 212, 1), rgba(0, 1, 17, .9));
+  	border: none;
+}
+
+
+
 /*Animation*/
 .animated {
   -webkit-animation-duration: 3s;
@@ -51,7 +66,6 @@ form{
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
@@ -98,4 +112,10 @@ form{
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
+}
+
+@media only screen and (max-width: 768px) {
+    .blue-btn {
+        margin-bottom: 5px;
+    }
 }
