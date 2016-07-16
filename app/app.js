@@ -11,8 +11,9 @@ var qs = new QuestionService();
         var question = {
             author: form.author.value,
             email: form.email.value,
-            question: form.question.value
-
+            question: form.question.value,
+            posted: Date.now(),
+            status: 'open'
         }
 
         questions.push(question);
