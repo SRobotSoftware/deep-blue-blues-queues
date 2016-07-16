@@ -7,8 +7,10 @@ var qs = new QuestionService();
     formElem.on('submit', function (e) {
         e.preventDefault();
         var form = this;
-
+debugger
         var question = {
+    // thanks to Scarlett from VYNYL!!
+            topic: form.questionType.value,
             author: form.author.value,
             email: form.email.value,
             question: form.question.value,
