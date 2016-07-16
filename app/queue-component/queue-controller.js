@@ -1,5 +1,7 @@
 (function () {
 
+    var qs = new QuestionService();
+
 
     var questions = [{
         id: 0,
@@ -38,6 +40,7 @@
     var elem = $("#questions");
 
     function update() {
+        var questions = qs.getQuestions();
         elem.empty()
         for (var i = 0; i < questions.length; i++) {
             var currentQuestion = questions[i];

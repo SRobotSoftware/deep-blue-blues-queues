@@ -21,7 +21,8 @@
 			<div class="col-xs-12">
 				<form id="question-form">
 					<input type="text" name="author" placeholder="Your Name!">
-					<input type="text" name="email" placeholder="Your Email!">
+					<input type="email" name="email" placeholder="Your Email!">
+					<textarea name="question" cols="30" rows="10"></textarea>
 					<select name="questionType">
 						<option value="html">HTML</option>
 						<option value="css">CSS</option>
@@ -32,19 +33,20 @@
 						<option value="firebase">Fire Base</option>
 						<option value="careerdev">Career Development</option>
 					</select>
+					<button type="submit" class="btn btn-warning">Submit Question</button>
+					<button type="reset" class="btn btn-info">Reset Form</button>
 				</form>
 			</div>
 		</div>
 	</div>
 
-	<button type="button" class="btn btn-warning">Submit Question</button>
-	<button type="button" class="btn btn-info">Inspect Queue</button>
 
 	<!--Vendor Scripts-->
-	<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<!--Custom Scripts-->
 	<script src="app/app.js"></script>
+	<script src="app/question-service.js"></script>
 
 </body>
 
