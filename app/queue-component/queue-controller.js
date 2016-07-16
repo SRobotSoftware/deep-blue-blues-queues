@@ -24,7 +24,7 @@
                                     <div class="panel-body">
                                         <p>${currentQuestion.topic}</p>
                                         <p>${currentQuestion.question}</p>
-                                        <p>${currentQuestion.posted}</p>
+                                        <p>${moment(currentQuestion.posted)}</p>
                                         <p>${currentQuestion.status}</p>
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-success answer-button">Answer</button>
