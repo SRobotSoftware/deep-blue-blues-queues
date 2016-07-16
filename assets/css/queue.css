@@ -1,6 +1,7 @@
 body{
     background-image: url(https://static.pexels.com/photos/157/person-apple-laptop-notebook.jpg);
     background-size: cover;
+    background-attachment: fixed;
     overflow-x: hidden;
     background-position: center;
     font-family: 'Roboto', sans-serif;

@@ -10,6 +10,10 @@ h1{
     color: white;
     font-weight: 200;
 }
+h5{
+    color: white;
+    font-weight: 200;
+}
 img{
     margin-top: 30px;
     display: inline;
@@ -17,8 +21,8 @@ img{
 form{
     background-color: #444;
     opacity: .8;
-    padding: 10px 60px 80px 60px;
-    border-radius: 5px;
+    padding: 10px 60px 30px 60px;
+    border-radius: 3px;
     margin: 40px 10px 0 50px;
 }
 .btn{
@@ -26,16 +30,13 @@ form{
     text-transform: uppercase;
     display: inline;
     border-radius: 1px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid white;
     background-color: transparent;
     color: white;
 }
 .btn:hover{
     font-weight: 300;
-}
-.blue-btn{
-  align-items: left;
 }
 .blue-btn:hover{
     background-color: #00BCD4;
@@ -45,6 +46,13 @@ form{
 .red-btn:hover{
     background-color: #fc5555;
     border: 1px solid #fc5555;
+    color: white;
+
+}
+.green-btn:hover{
+    background-color: #65ce65;
+    border: 1px solid #65ce65;
+    color: white;
 }
 
 
@@ -112,10 +120,4 @@ form:hover{
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
-}
-
-@media only screen and (max-width: 768px) {
-    .blue-btn {
-        margin-bottom: 5px;
-    }
 }
