@@ -26,7 +26,8 @@
                                     <p class="date">${moment(currentQuestion.posted)}</p>
                                     <p class="capital">${currentQuestion.status}</p>
                                     <div class="col-lg-4 col-lg-offset-4">
-                                    <button type="button" class="btn btn-danger delete-button btn-block">Dismiss</button>
+                                    <button type="button" class="btn btn-danger delete-button btn-block">Dismiss 
+                                    <i class="fa fa-times" aria-hidden="true"></i></button>
                                 </div>
                             </div>
                         </div>
