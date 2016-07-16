@@ -1,14 +1,15 @@
-(function () {
+function QuestionService() {
 
-    function QuestionService() {
+    var qlist = getQuestions() || [];
 
-function saveQuestion(question) {
-    localStorage.setItem('question', JSON.stringify(question))
-}
+    this.saveQuestion = function(question) {
+        qlist.push(question);
+        localStorage.setItem('qlist', JSON.stringify(qlist))
+    }
 
-function getQuestions() {
-    return JSON.parse(localStorage.getItem('questions'))
-}
-
-    };
-})()
+    function getQuestions() {
+        return JSON.parse(localStorage.getItem('qlist'))
+    }
+    
+    this.getQuestions = getQuestions;
+};

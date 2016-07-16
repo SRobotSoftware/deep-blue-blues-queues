@@ -1,7 +1,6 @@
 (function(){
 
 var qs = new QuestionService();
-
     var questions = [];
     var formElem = $('#question-form');
 
@@ -26,4 +25,4 @@ var qs = new QuestionService();
     
 
 
-}())
+})()
