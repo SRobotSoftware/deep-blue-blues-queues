@@ -10,10 +10,6 @@ h1{
     color: white;
     font-weight: 200;
 }
-h5{
-    color: white;
-    font-weight: 200;
-}
 img{
     margin-top: 30px;
     display: inline;
@@ -28,12 +24,19 @@ form{
 .btn{
     font-weight: 100;
     text-transform: uppercase;
-    display: inline;
     border-radius: 1px;
-    font-size: 18px;
+    font-size: 20px;
     border: 1px solid white;
     background-color: transparent;
     color: white;
+}
+.green-btn{
+    text-transform: uppercase;
+    font-weight: 200;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 8px;
+    text-decoration: none;
 }
 .btn:hover{
     font-weight: 300;

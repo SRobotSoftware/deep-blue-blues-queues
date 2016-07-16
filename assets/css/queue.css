@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://static.pexels.com/photos/157/person-apple-laptop-notebook.jpg);
+    background-image: url(https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg);
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
@@ -8,19 +8,50 @@ body{
     font-weight: 300;
     overflow-x: hidden;
 }
-h2{
-    text-transform: uppercase;
+h1{
+    color: white;
+    font-size: 8em;
     font-weight: 200;
 }
-h4{
+h1, h3{
+    line-height: 40px;
+}
+h2, h3, h4{
+    text-transform: uppercase;
     font-weight: 200;
+    color: white;
 }
 .card{
     opacity: .8;
     border-radius: 1px;
     border: none;
 }
-
+.green-btn{
+    text-transform: uppercase;
+    font-weight: 200;
+    background-color: #65ce65;
+    opacity: .8;
+    border-radius: 1px;
+    font-size: 30px;
+    padding: 15px;
+    text-decoration: none;
+    margin: 10px 8px 40px;
+}
+.green-btn:hover{
+    background-color: #5CB85C;
+}
+.btn-danger{
+    border-radius: 1px;
+}
+.capital{
+    text-transform: uppercase;
+}
+.date{
+    color: #428bca;
+}
+.panel-body:hover{
+    background-color: #eee;
+}
 
 
 
