@@ -11,7 +11,7 @@
             qCount.text(Object.keys(questions).length)
             for (var id in questions) {
                 var currentQuestion = questions[id];
-                elem.prepend(`
+                elem.append(`
                 <div class="text-center">
                     <div class="col-lg-offset-3 col-lg-6">
                         <div class="card" id="${currentQuestion.id}">
